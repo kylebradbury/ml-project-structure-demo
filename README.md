@@ -15,3 +15,4 @@ Note: if you accidentally generate an environment that you didn't want, you can 
 For generating requirements.txt files, create a list of the key dependencies in this file; if any of your code is version-specific, set the version as well [1], but limit the constraints to ensure dependencies can be successfully installed on other systems (this is especially true across platforms). Then to create the environment from the requirements.txt file, you can use the command `conda create --name ENV_NAME --file requirements.txt`.
 
 [1] Specifying the version after an equal sign, such as `numpy=1.25.0`. Note this creates a `requirements.txt` file that is compatible with conda/mamba but differs from the version used when installing with `pip` (that requires a double equal sign `==`).
+
