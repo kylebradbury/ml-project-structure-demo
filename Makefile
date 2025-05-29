@@ -44,7 +44,7 @@ clean-data:
 
 # Delete all models, metrics, and visualizations
 clean-results:
-	rm -rf model/*
+	rm -rf models/*
 	rm -rf results/*
 	rm -rf reports/figures/*
 
